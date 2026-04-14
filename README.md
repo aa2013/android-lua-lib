@@ -1,4 +1,4 @@
-This repository is used to compile multi-architecture .so libraries of Lua for Android (specified versions).  
+This repository is used to compile multi-architecture `.so` libraries of Lua for Android (specified versions).  
 
 For macOS, please refer to: [mac-lua-dylib](https://github.com/aa2013/mac-lua-lib)
 
