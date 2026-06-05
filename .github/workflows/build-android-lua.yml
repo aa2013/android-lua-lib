@@ -338,7 +338,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           name: Lua ${{ env.LUA_VERSION }} for Android and Linux
-          tag_name: Lua-v${{ env.LUA_VERSION }}-for-Android-and-Linux-test
+          tag_name: Lua-v${{ env.LUA_VERSION }}-for-Android-and-Linux
           files: |
             artifacts/**/liblua-*-android-*.so
             artifacts/**/cjson-*-android-*.so
