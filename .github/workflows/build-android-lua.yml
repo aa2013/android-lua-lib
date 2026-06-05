@@ -117,7 +117,7 @@ jobs:
         RANLIB=${{ env.TOOLCHAIN }}ranlib
         STRIP=${{ env.STRIP }}
         MYCFLAGS=-fPIC -O2 -I$(LUA_INC) -DLUA_USE_DLOPEN
-        MYLDFLAGS=-shared -Wl,-z,global
+        MYLDFLAGS=-shared
         MYLIBS=-ldl -lm
         PLAT= generic
         
